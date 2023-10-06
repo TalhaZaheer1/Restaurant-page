@@ -1,0 +1,29 @@
+#menuSection{
+    background-color: var(--clr-gr);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:1.5rem;
+    justify-items: center;
+    width:80%;
+    border-radius: 3rem;
+    position: relative;
+    top:-10%;
+    left:46%;
+    padding: 2rem 0;
+    opacity: 0;
+}
+.card{
+    width:32rem;
+    height: 15rem;
+    border:5px solid var(--clr-sg);
+    border-radius:3rem;
+    text-align: center;
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+.card>p{
+    font-weight: 600;
+    font-size: var(--size-sm);
+}
